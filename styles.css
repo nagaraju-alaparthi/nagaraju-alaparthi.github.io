@@ -1,129 +1,160 @@
 /* Add styles here */
-html{
-    scroll-behavior : smooth;
-}
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0px;
+    background-color:#f2e9ea ;
 }
 /* ------------ sidebar -------------- */
-.sidebar{
-    background-color: #bd5d38;
+
+.asidebar{
+    background-color:#020202;
     float: left;
     width: 300px;
     text-align: center;
+    top: 0;
     position: fixed;
-    top:0;
-    left: 0;
     height: 100%;
     box-shadow: 0 0 15px black;
+
 }
-.sidebar ul{
+.asidebar ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+
 }
-.sidebar ul li a{
-    color: #deac8c;
+.asidebar ul li a{
     text-decoration: none;
+    color:#e9e9e7;
     padding: 16px 25px;
-    display: block;
-    font-size:16px;
-    text-transform: uppercase;
-    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+
 }
-.sidebar ul li a:hover{
-    color: white;
+.asidebar ul li a:hover{
+    background-color: #e9e9e7;
+    color: red;
+    width: 100px;
+    box-shadow: 0 0 15px red;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
-.sidebar img{
+
+.asidebar img{
+    margin-top: 100px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px solid #ca7d60;
-    box-shadow: 0 0 15px black;
-    margin-top: 100px;
+    border: 10px solid #e9e9e7 ;
 }
-/* ------------ About Section ---------------- */
+.asidebar img:hover{
+    color: #00aeef;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+/*--about section----*/
 #about-section{
     margin-left: 300px;
-    padding: 20px;
+    padding: 40px;
+
 }
 .about-article h1{
     font-family: 'Fjalla One', sans-serif;
     font-size: 80px;
-    text-shadow: 0 0 5px black;
     margin: 150px 0 0 0;
 }
-.about-article .fname{
-    color: #343a40;
+.fname{
+    text-shadow: 0 0 15px #4f5a90;
+    color:#343a40;
+
 }
-.about-article .lname{
-    color: #bd5d38;
+.lname{
+    text-shadow:0 0 15px #338fa3;
+    color:#bd5d38;
 }
+ /*---head section h2---*/
 .about-article h2{
     font-family: 'Nunito', sans-serif;
     font-size: 35px;
     margin-top: 0;
 }
 .about-article p{
-    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
     color: #818283;
+
+}
+/*experience*/
+#experience{
+    margin: 150px 0 200px 300px;
+    padding: 30px;
+
+
 }
 
-/* ----------- Experience Section --------------- */
-#exp-section{
-    margin: 150px 0 200px 300px;
-    padding: 20px;
-}
 .main-heading{
     font-family: 'Exo 2', sans-serif;
     font-size: 50px;
     text-shadow: 0 0 5px #bd5d38;
 }
-.exp-article{
+.ex-article{
     width: 300px;
     display: inline-block;
     padding: 10px;
+    height: 150px;
+
 }
-.exp-article h3{
+.ex-article h3{
     font-family: 'Courgette', cursive;
     font-size: 25px;
 }
-.exp-article p{
+.ex-article p{
+    font-family: 'Courgette', cursive;
     font-size: 20px;
     color: #818283;
     text-align: justify;
 }
-.exp-button{
-    background-color: #bd5d38;
+.exp-button {
+    background-color:#020202;
     color: white;
     border: none;
     font-family: 'Anton', sans-serif;
     font-size: 18px;
     padding: 10px 25px;
     border-radius: 50px;
-}
 
-/* ---------------- Education Section ---------------- */
-#education-section{
+}
+/*education*/
+
+#education{
     margin: 150px 0 200px 300px;
     padding: 20px;
 }
-.edu-article{
-    background-color: #ca7d60;
-    color: white;
-    padding: 10px;
-    margin: 15px;
-    border: 5px solid white;
-    box-shadow: 0 0 5px #ca7d60;
+ table{
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+     background-color: #e6e7e2;
+     border: 5px solid #deac8c;
+     box-shadow: 0 0 15px #d5d4da;
+
+
 }
-.edu-article h3{
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
-}
-.edu-article p{
-    font-size: 20px;
-}
+ table th{
+     font-family: 'Courgette', cursive;
+     font-size: 25px;
+ }
+ table td{
+     padding: 20px;
+     font-family: 'Courgette', cursive;
+     font-size: 20px;
+     color: #818283;
+ }
 
 /* --------------------- Skills Section --------------- */
 #skills-section{
@@ -140,6 +171,10 @@ body{
     font-family: 'Lobster', cursive;
     font-size: 25px;
     color: #bd5d38;
+}
+.skills-article p {
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
 }
 .skills-article .fab{
     color: black;
@@ -173,41 +208,4 @@ body{
 .interests-article .fas:hover{
     color: #bd5d38;;
 
-}
-
-/* ------------- Certifications Section ---------- */
-#certification-section{
-    margin-left: 300px;
-    padding: 20px;
-}
-.cert-text{
-    font-size: 20px;
-    color: #818283;
-}
-.certification-article{
-    text-align: center;
-    border: 2px solid #bd5d38;
-    width: 220px;
-    display: inline-block;
-    margin: 50px 5px 5px 5px;
-    border-radius: 10px;
-    transition: all 0.5s;
-}
-.certification-article:hover{
-    background-color: #bd5d38;
-    box-shadow: 0 0 15px #bd5d38;
-    transform: translateY(-10px);
-    cursor: pointer;
-}
-.certification-article:hover p{
-    color: white;
-}
-.certification-article img{
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
-}
-.certification-article p{
-    padding: 10px;
-    font-size: 16px;
 }
