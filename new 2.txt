@@ -1,0 +1,96 @@
+<div id="background-carousel" style="margin-top: 56px;" class="ng-scope">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="item" style="background-image:url(assets/img/smCorr/img01.jpg);">
+                     <div class="bs-slider-overlay"></div>
+                     <div class="carousel-caption animated zoomInLeft">
+                        <h1> Medical records made available securely online,
+                           accessible anytime and anywhere
+                        </h1>
+                        <ul>
+                           <li class="lead">1. Provides a unified summary of your entire
+                              health history
+                           </li>
+                           <li class="lead">2. Easy to understand and use</li>
+                           <li class="lead">3. 24/7 access to all your medical
+                              information from anywhere in the world
+                           </li>
+                           <li class="lead">4. Three convenient ways to physically take
+                              your PHR with you and share with your doctor and hospital
+                           </li>
+                        </ul>
+                     
+                     </div>
+                    
+                  </div>
+                  <div class="item" style="background-image:url(assets/img/smCorr/img02.jpg); opacity:1">
+                     <div class="bs-slider-overlay"></div>
+                     <!-- Slide Text Layer -->
+                     <div class="carousel-caption animated zoomInLeft">
+                        <h1>Easy to use - Proactively Manage  your and
+                           Family’s Health
+                        </h1>
+                        <ul>
+                           <li class="lead">1. Track health records at one place using
+                              Mobile or Web
+                           </li>
+                           <li class="lead">2. Proactively manage and store, health
+                              records for the entire family
+                           </li>
+                           <li class="lead">3. Manage and track your doctor’s
+                              appointments
+                           </li>
+                           <li class="lead">4. Check your health score</li>
+                           <li class="lead">5. Proactively manage your alerts for e.g.
+                              immunization, medication and appointments
+                           </li>
+                           <li class="lead">6. Access the best knowledge base and medical
+                              dictionary
+                           </li>
+                        </ul>
+                      
+                     </div>
+                  </div>
+                  <div class="item active" style="background-image:url(assets/img/smCorr/img04.jpg); opacity:1">
+                     <div class="bs-slider-overlay"></div>
+                     <div class="carousel-caption animated zoomInLeft">
+                        <br>
+                        <br>
+                        <h1>Indulge yourself in living healthy!!</h1>
+                        <ul>
+                           <li class="lead">1. Track your activities</li>
+                           <li class="lead">2. Track BP, sugar,
+                              exercise, weight and food calories
+                           </li>
+                           <li class="lead">3. Easy to use – care templates</li>
+                        </ul>
+                        <br>
+                        <br>
+                    
+                     </div>
+                  </div>
+                  <div class="item" style="background-image:url(assets/img/smCorr/img05.png); opacity:1">
+                     <div class="bs-slider-overlay"></div>
+                     <div class="carousel-caption animated zoomInLeft">
+                        <h1>Medical records made available securely online,
+                           accessible anytime and anywhere
+                        </h1>
+                        <ul>
+                           <li class="lead">1. Provides a unified summary of your entire
+                              health history
+                           </li>
+                           <li class="lead">2. Easy to understand and use</li>
+                           <li class="lead">3. 24/7 access to all your medical
+                              information from anywhere in the world
+                           </li>
+                           <li class="lead">4. Three convenient ways to physically take
+                              your PHR with you and share with your doctor and hospital
+                           </li>
+                        </ul>
+                       
+                     </div>
+                  </div>
+               </div>
+                
+            </div>
+         </div>
